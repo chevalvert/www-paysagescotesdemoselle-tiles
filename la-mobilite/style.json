@@ -1,0 +1,134 @@
+[
+  {
+    "selector": "parent === 'C16'",
+    "stroke": {
+      "color": "rgba(255, 250, 0, 1)",
+      "weight": 2
+    }
+  },
+
+  {
+    "selector": "parent === 'C16' && zoom === 3",
+    "stroke": {
+      "color": "rgba(255, 250, 0, 1)",
+      "weight": 4
+    }
+  },
+
+  {
+    "selector": "parent === 'C16' && zoom === 4",
+    "stroke": {
+      "color": "rgba(255, 250, 0, 1)",
+      "weight": 6
+    }
+  },
+
+  {
+    "selector": "parent === 'C16' && zoom === 5",
+    "stroke": {
+      "color": "rgba(255, 250, 0, 1)",
+      "weight": 8
+    }
+  },
+
+  {
+    "selector": "parent === 'C16' && zoom === 6",
+    "stroke": {
+      "color": "rgba(255, 250, 0, 1)",
+      "weight": 12
+    }
+  },
+
+  {
+    "selector": "parent === 'C17'",
+    "stroke": {
+      "color": "white",
+      "weight": 2
+    }
+  },
+
+  {
+    "selector": "parent === 'C17' && zoom > 3",
+    "stroke": {
+      "color": "white",
+      "weight": 4
+    }
+  },
+
+  { "selector": "parent === 'C17' && zoom < 3 && parseInt(properties.IMPORTANCE) > 2", "hidden": true },
+  { "selector": "parent === 'C17' && zoom < 4 && parseInt(properties.IMPORTANCE) > 3", "hidden": true },
+
+  {
+    "selector": "parent === 'C17' && zoom === 6",
+    "stroke": {
+      "color": "white",
+      "weight": 6
+    }
+  },
+
+  {
+    "selector": "parent === 'C19' && zoom > 3",
+    "stroke": {
+      "color": "white",
+      "weight": 2,
+      "cap": "round",
+      "dash": [6, 5]
+    }
+  },
+
+  {
+    "selector": "parent === 'C19' && zoom === 6",
+    "stroke": {
+      "color": "white",
+      "weight": 4,
+      "cap": "round",
+      "dash": [12, 10]
+    }
+  },
+
+  {
+    "selector": "parent === 'C36' && zoom > 1",
+    "stroke": {
+      "color": "#808080",
+      "weight": 1
+    },
+    "label": {
+      "value": "'|'",
+      "size": 5,
+      "font": "Friction Mono",
+      "color": "#808080",
+      "repeat": 5
+    }
+  },
+
+  {
+    "selector": "parent === 'C36' && zoom > 4",
+    "stroke": {
+      "color": "#808080",
+      "weight": 6
+    },
+    "label": {
+      "value": "'|'",
+      "size": 10,
+      "font": "Friction Mono",
+      "color": "#808080",
+      "repeat": 5
+    }
+  },
+
+  {
+    "selector": "parent === 'C37' && zoom > 3",
+    "stroke": {
+      "color": "#fdb287",
+      "weight": 2
+    }
+  },
+
+  {
+    "selector": "parent === 'C37' && zoom === 6",
+    "stroke": {
+      "color": "#fdb287",
+      "weight": 4
+    }
+  }
+]

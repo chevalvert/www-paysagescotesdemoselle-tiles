@@ -1,0 +1,47 @@
+[
+  {
+    "selector": "parent === 'C03'",
+    "fill": { "color": "#00d2ff" }
+  },
+
+  {
+    "selector": "parent === 'C04'",
+    "tolerance": 1,
+    "stroke": {
+      "color": "#00e7ff",
+      "weight": 2
+    }
+  },
+
+  {
+    "selector": "parent === 'C04' && zoom > 2",
+    "stroke": {
+      "color": "#00e7ff",
+      "weight": 4
+    }
+  },
+
+  {
+    "selector": "parent === 'C04' && zoom > 3",
+    "stroke": {
+      "color": "#00e7ff",
+      "weight": 8
+    }
+  },
+
+  {
+    "selector": "false && /* TODO */ parent === 'C04' && zoom > 5",
+    "stroke": {
+      "color": "#00e7ff",
+      "weight": 12
+    },
+    "label": {
+      "value": "properties.NOM_C_EAU !== 'null' && properties.NOM_C_EAU",
+      "color": "rgba(0,0,0,0.7)",
+      "size": 10,
+      "font": "Replica-Regular",
+      "align": "center",
+      "repeat": 600
+    }
+  }
+]

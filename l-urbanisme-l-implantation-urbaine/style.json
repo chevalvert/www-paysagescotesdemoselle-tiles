@@ -1,0 +1,33 @@
+[
+  {
+    "selector": "parent === 'C49'",
+    "fill": {
+      "pattern": {
+        "repeat": [4, 4],
+        "symbols": ["hatch.svg"],
+        "jitter": [0, 0],
+        "fill-holes": true
+      }
+    }
+  },
+
+  {
+    "selector": "parent === 'C08'",
+    "fill": { "color": "rgb(0,0,0)" }
+  },
+
+  {
+    "selector": "parent === 'C09'",
+    "fill": { "color": "rgb(255,128,255)" }
+  },
+
+  {
+    "selector": "parent === 'C34'",
+    "fill": { "color": "rgb(128,0,255)" }
+  },
+
+  {
+    "selector": "parent === 'C35'",
+    "fill": { "color": "rgb(0,255,0)" }
+  }
+]
