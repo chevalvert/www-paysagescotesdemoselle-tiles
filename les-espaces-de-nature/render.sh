@@ -23,4 +23,24 @@ cat $DATA/{C21,C22,C52,C30,C26}.geojson | ppmm-builder \
   --styles $STYLE \
   --skip-empty \
   --zoom 6 \
-  # --region "18,15,19,18"
+
+let zoom=7
+let max=$[2 ** $zoom]
+let steps=$[2 ** ($zoom - 6)]
+let tilesize=$[$max / $steps]
+for i in $(seq 0 $[$steps - 1]); do
+  for j in $(seq 0 $[$steps - 1]); do
+    let x1=$[$tilesize * $i]
+    let y1=$[$tilesize * $j]
+    let x2=$[$tilesize * ($i + 1)]
+    let y2=$[$tilesize * ($j + 1)]
+    cat $DATA/{C21,C22,C52,C30,C26}.geojson | ppmm-builder \
+      --progress \
+      --output $DIR \
+      --bbox $BBOX \
+      --styles $STYLE \
+      --skip-empty \
+      --zoom $zoom \
+      --region "$x1,$y1,$x2,$y2"
+  done;
+done;
