@@ -1,0 +1,26 @@
+[
+  {
+    "selector": "parent === 'C21'",
+    "fill": { "color": "#01a050" }
+  },
+
+  {
+    "selector": "parent === 'C52'",
+    "fill": { "color": "#99d9b9" }
+  },
+
+  {
+    "selector": "parent === 'C30'",
+    "fill": { "color": "#00461e" }
+  },
+
+  {
+    "selector": "parent === 'C26'",
+    "fill": { "color": "#99b5a5" }
+  },
+
+  {
+    "selector": "parent === 'C22'",
+    "fill": { "color": "#d9e999" }
+  }
+]
