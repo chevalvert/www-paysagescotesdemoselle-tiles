@@ -29,5 +29,10 @@
   {
     "selector": "parent === 'C35'",
     "fill": { "color": "rgb(0,255,0)" }
+  },
+
+  {
+    "selector": "parent === 'C32' && zoom === 7",
+    "stroke": { "color": "rgba(0, 0, 0, 1)" }
   }
 ]
