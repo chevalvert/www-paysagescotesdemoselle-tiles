@@ -3,8 +3,20 @@
     "selector": "parent === 'C49'",
     "fill": {
       "pattern": {
+        "repeat": [8, 8],
+        "symbols": ["hatch-16.svg"],
+        "jitter": [0, 0],
+        "fill-holes": true
+      }
+    }
+  },
+
+  {
+    "selector": "parent === 'C49' && zoom < 5",
+    "fill": {
+      "pattern": {
         "repeat": [4, 4],
-        "symbols": ["hatch.svg"],
+        "symbols": ["hatch-8.svg"],
         "jitter": [0, 0],
         "fill-holes": true
       }
