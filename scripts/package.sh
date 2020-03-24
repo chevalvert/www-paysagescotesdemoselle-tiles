@@ -1,2 +1,2 @@
 DIR="$(cd `dirname $0` && pwd)"
-zip -FSrj package.zip $DIR/data
+zip -FSrj package.zip $DIR/../data
