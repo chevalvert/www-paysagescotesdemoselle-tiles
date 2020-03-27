@@ -1,6 +1,6 @@
 [
   {
-    "selector": "parent === '23'",
+    "selector": "parent === 'C23'",
     "fill": { "color": "#a0c801" }
   },
 
