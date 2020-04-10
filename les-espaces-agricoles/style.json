@@ -1,7 +1,7 @@
 [
   {
     "selector": "parent === 'C23'",
-    "fill": { "color": "#a0c801" }
+    "fill": { "color": "#a0c800" }
   },
 
   {
@@ -11,6 +11,6 @@
 
   {
     "selector": "parent === 'C25'",
-    "fill": { "color": "#c1cd99" }
+    "fill": { "color": "#ffdc00" }
   }
 ]
