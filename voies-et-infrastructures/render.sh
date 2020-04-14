@@ -1,12 +1,10 @@
 DIR="$(cd `dirname $0` && pwd)"
 DATA="$DIR/../data"
 STYLE="$DIR/style.json"
-RASTERS="$DIR/rasters.json"
 BBOX='917147.156155741,6885201.29637512,937157.321376621,6903953.67978212'
 
 rm -rf $DIR/{1..7}
-# cat $DATA/{C36,C42,C50,C43,C16}.geojson | ppmm-builder \
-cat $DATA/{C36,C42,C50,C16,C43}-debug.geojson | ppmm-builder \
+cat $DATA/{C36,C42,C50,C16,C43}.geojson | ppmm-builder \
   --progress \
   --output $DIR \
   --bbox $BBOX \
