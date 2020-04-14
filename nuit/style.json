@@ -1,0 +1,75 @@
+[
+  {
+    "selector": "(parent === 'C05-10m' && zoom === 3) || (parent === 'C05' && zoom > 3)",
+    "stroke": { "color": "rgba(255,255,255,0.25)", "weight": 1 }
+  },
+  {
+    "selector": "parent === 'C05-10m' && zoom <= 2",
+    "stroke": { "color": "rgba(255,255,255,0.1)", "weight": 1 }
+  },
+  {
+    "selector": "parent === 'C05' && zoom > 4",
+    "stroke": { "color": "rgba(255,255,255,0.3)", "weight": 1 }
+  },
+  {
+    "selector": "parent === 'C05' && zoom === 6",
+    "stroke": { "color": "rgba(255,255,255,0.3)", "weight": 1 }
+  },
+  {
+    "selector": "parent === 'C05' && zoom === 6 && (properties.ELEV % 25 === 0)",
+    "stroke": { "color": "rgba(255,255,255,0.3)", "weight": 1 },
+    "label": {
+      "value": "properties.ELEV",
+      "color": "rgba(255,255,255,0.7)",
+      "size": 10,
+      "font": "Replica-Regular",
+      "align": "center",
+      "repeat": 600,
+      "outline": {
+        "color": "black",
+        "weight": 2
+      }
+    }
+  },
+
+  { "selector": "parent === 'C21'", "fill":  { "color": "#00461e" } },
+
+  { "selector": "parent === 'C03'", "fill": { "color": "#0064c8" } },
+
+  {
+    "selector": "parent === 'C04'",
+    "tolerance": 1,
+    "stroke": { "color": "#0064c8", "weight": 2 }
+  },
+  { "selector": "parent === 'C04' && zoom > 2", "stroke": { "color": "#0064c8", "weight": 4 } },
+  { "selector": "parent === 'C04' && zoom > 3", "stroke": { "color": "#0064c8", "weight": 8 } },
+
+  {
+    "selector": "parent === 'C08'",
+    "fill": { "color": "rgb(120,120,100)" }
+  },
+
+  {
+    "selector": "parent === 'C09'",
+    "fill": { "color": "rgb(255,128,255)" }
+  },
+
+  {
+    "selector": "parent === 'C10'",
+    "fill": { "color": "rgb(128,0,255)" }
+  },
+
+  { "selector": "parent === 'C17'", "stroke": { "color": "white", "weight": 2 } },
+  { "selector": "parent === 'C17' && zoom > 3", "stroke": { "color": "white", "weight": 4 } },
+  { "selector": "parent === 'C17' && zoom < 3 && parseInt(properties.IMPORTANCE) > 2", "hidden": true },
+  { "selector": "parent === 'C17' && zoom < 4 && parseInt(properties.IMPORTANCE) > 3", "hidden": true },
+  { "selector": "parent === 'C17' && zoom === 6", "stroke": { "color": "white", "weight": 6 } },
+  { "selector": "parent === 'C17' && zoom === 7", "stroke": { "color": "white", "weight": 8 } },
+
+  { "selector": "parent === 'C16'", "stroke": { "color": "rgba(255, 250, 0, 1)", "weight": 2 } },
+  { "selector": "parent === 'C16' && zoom === 3", "stroke": { "color": "rgba(255, 250, 0, 1)", "weight": 4 } },
+  { "selector": "parent === 'C16' && zoom === 4", "stroke": { "color": "rgba(255, 250, 0, 1)", "weight": 6 } },
+  { "selector": "parent === 'C16' && zoom === 5", "stroke": { "color": "rgba(255, 250, 0, 1)", "weight": 8 } },
+  { "selector": "parent === 'C16' && zoom === 6", "stroke": { "color": "rgba(255, 250, 0, 1)", "weight": 12 } },
+  { "selector": "parent === 'C16' && zoom === 7", "stroke": { "color": "rgba(255, 250, 0, 1)", "weight": 16 } }
+]
