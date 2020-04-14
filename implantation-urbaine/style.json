@@ -45,6 +45,6 @@
 
   {
     "selector": "parent === 'C32' && zoom === 7",
-    "stroke": { "color": "rgba(0, 0, 0, 1, 0.4)" }
+    "stroke": { "color": "rgba(0, 0, 0, 0.4)" }
   }
 ]
