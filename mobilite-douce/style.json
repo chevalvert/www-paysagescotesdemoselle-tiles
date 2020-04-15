@@ -1,0 +1,25 @@
+[
+  { "selector": "parent === 'C17'", "stroke": { "color": "white", "weight": 2, "cap": "round", "join": "round" }},
+  { "selector": "parent === 'C17' && zoom > 3", "stroke": { "color": "white", "weight": 2, "cap": "round", "join": "round" }},
+  { "selector": "parent === 'C17' && zoom < 3 && parseInt(properties.IMPORTANCE) > 2", "hidden": true },
+  { "selector": "parent === 'C17' && zoom < 4 && parseInt(properties.IMPORTANCE) > 3", "hidden": true },
+  { "selector": "parent === 'C17' && zoom === 6", "stroke": { "color": "white", "weight": 6, "cap": "round", "join": "round" }},
+
+  { "selector": "parent === 'C19' && zoom > 3", "stroke": { "color": "white", "weight": 1, "cap": "round", "join": "round", "dash": [6, 5] }},
+  { "selector": "parent === 'C19' && zoom === 6", "stroke": {"color": "white", "weight": 2, "cap": "round", "join": "round", "dash": [12, 10] }},
+
+  { "selector": "parent === 'C37' && zoom > 3", "stroke": { "color": "#ffb4cd", "weight": 2, "cap": "round", "join": "round", "dash": [6, 5] }},
+  { "selector": "parent === 'C37' && zoom === 6", "stroke": {"color": "#ffb4cd", "weight": 2, "cap": "round", "join": "round", "dash": [12, 10] }},
+
+  { "selector": "parent === 'C40' && zoom > 3", "stroke": { "color": "#ffb4cd", "weight": 2, "cap": "round", "join": "round" }},
+  { "selector": "parent === 'C40' && zoom === 6", "stroke": {"color": "#ffb4cd", "weight": 4, "cap": "round", "join": "round" }},
+
+  { "selector": "parent === 'C47' && zoom > 3", "stroke": { "color": "#ff3c3c", "weight": 1, "cap": "round", "join": "round", "dash": [6, 5] }},
+  { "selector": "parent === 'C47' && zoom === 6", "stroke": {"color": "#ff3c3c", "weight": 2, "cap": "round", "join": "round", "dash": [12, 10] }},
+
+  { "selector": "parent === 'C20' && zoom > 3", "stroke": { "color": "#ff3c3c", "weight": 2, "cap": "round", "join": "round" }},
+  { "selector": "parent === 'C20' && zoom === 6", "stroke": {"color": "#ff3c3c", "weight": 4, "cap": "round", "join": "round" }},
+
+  { "selector": "parent === 'C39' && zoom > 3", "stroke": { "color": "#961e1e", "weight": 2, "cap": "round", "join": "round" }},
+  { "selector": "parent === 'C39' && zoom === 6", "stroke": {"color": "#961e1e", "weight": 4, "cap": "round", "join": "round" }}
+]
