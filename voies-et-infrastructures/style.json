@@ -100,5 +100,5 @@
   },
 
   { "selector": "parent === 'C50'", "fill": { "color": "#ff7800" }},
-  { "selector": "parent === 'C43'", "stroke": { "color": "#ffff00" }}
+  { "selector": "parent === 'C43'", "stroke": { "color": "#ffff00", "weight": 2 }}
 ]
