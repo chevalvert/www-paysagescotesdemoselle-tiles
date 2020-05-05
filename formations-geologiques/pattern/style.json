@@ -1,0 +1,16 @@
+[
+  { "selector": "properties.LITHOLOGIE === ''", "stroke":{"color":"black"}, "fill": { "pattern": "symbols/S07_001.svg" } },
+  { "selector": "properties.LITHOLOGIE === 'alluvions'", "stroke":{"color":"black"}, "fill": { "pattern": "symbols/S02_005.svg" } },
+  { "selector": "properties.LITHOLOGIE === 'argile'", "stroke":{"color":"black"}, "fill": { "pattern": "symbols/S08_003.svg" } },
+  { "selector": "properties.LITHOLOGIE === 'argile calcaire'", "stroke":{"color":"black"}, "fill": { "pattern": "symbols/S07_004.svg" } },
+  { "selector": "properties.LITHOLOGIE === 'calcaire'", "stroke":{"color":"black"}, "fill": { "pattern": "symbols/S07_005.svg" } },
+  { "selector": "properties.LITHOLOGIE === 'calcaire argileux (80%<CO3<90%)'", "stroke":{"color":"black"}, "fill": { "pattern": "symbols/S07_003.svg" } },
+  { "selector": "properties.LITHOLOGIE === 'calcaire bioclastique'", "stroke":{"color":"black"}, "fill": { "pattern": "symbols/S07_007.svg" } },
+  { "selector": "properties.LITHOLOGIE === 'calcaire sableux'", "stroke":{"color":"black"}, "fill": { "pattern": "symbols/S07_002.svg" } },
+  { "selector": "properties.LITHOLOGIE === 'dolomie'", "stroke":{"color":"black"}, "fill": { "pattern": "symbols/S04_005.svg" } },
+  { "selector": "properties.LITHOLOGIE === 'graviers'", "stroke":{"color":"black"}, "fill": { "pattern": "symbols/S03_005.svg" } },
+  { "selector": "properties.LITHOLOGIE === 'limon'", "stroke":{"color":"black"}, "fill": { "pattern": "symbols/S03_003.svg" } },
+  { "selector": "properties.LITHOLOGIE === 'marne (33%<CO3<66%)'", "stroke":{"color":"black"}, "fill": { "pattern": "symbols/S08_006.svg" } },
+  { "selector": "properties.LITHOLOGIE === 'marne calcaire (66<CO3%<80)'", "stroke":{"color":"black"}, "fill": { "pattern": "symbols/S08_007.svg" } },
+  { "selector": "properties.LITHOLOGIE === 'marne sableuse'", "stroke":{"color":"black"}, "fill": { "pattern": "symbols/S08_004.svg" } }
+]

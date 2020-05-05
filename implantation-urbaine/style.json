@@ -1,26 +1,12 @@
 [
   {
     "selector": "parent === 'C49'",
-    "fill": {
-      "pattern": {
-        "repeat": [8, 8],
-        "symbols": ["hatch-16.svg"],
-        "jitter": [0, 0],
-        "fill-holes": true
-      }
-    }
+    "fill": { "pattern": "hatch-16.svg" }
   },
 
   {
     "selector": "parent === 'C49' && zoom < 5",
-    "fill": {
-      "pattern": {
-        "repeat": [4, 4],
-        "symbols": ["hatch-8.svg"],
-        "jitter": [0, 0],
-        "fill-holes": true
-      }
-    }
+    "fill": { "pattern": "hatch-8.svg" }
   },
 
   {
@@ -30,12 +16,12 @@
 
   {
     "selector": "parent === 'C09'",
-    "fill": { "color": "#ff00ff" }
+    "fill": { "color": "rgb(255,180,220)" }
   },
 
   {
     "selector": "parent === 'C34'",
-    "fill": { "color": "#7850dc" }
+    "fill": { "color": "rgb(0,40,120)" }
   },
 
   {
@@ -44,7 +30,7 @@
   },
 
   {
-    "selector": "parent === 'C32' && zoom === 7",
+    "selector": "parent === 'C32' && zoom === 6",
     "stroke": { "color": "rgba(0, 0, 0, 0.4)" }
   }
 ]

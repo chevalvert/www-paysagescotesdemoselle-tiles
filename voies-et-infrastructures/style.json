@@ -50,53 +50,13 @@
   },
 
   {
-    "selector": "parent === 'C36' && zoom > 1",
-    "stroke": {
-      "color": "#505a64",
-      "weight": 1,
-      "pattern": {
-        "repeat": [4, 0],
-        "symbols": ["vertical-2.svg"],
-        "jitter": [0, 0]
-      }
-    }
-  },
-
-  {
-    "selector": "parent === 'C36' && zoom > 4",
-    "stroke": {
-      "color": "#505a64",
-      "weight": 2,
-      "pattern": {
-        "repeat": [4, 0],
-        "symbols": ["vertical-4.svg"],
-        "jitter": [0, 0]
-      }
-    }
-  },
-
-  {
     "selector": "parent === 'C42'",
-    "fill": {
-      "pattern": {
-        "repeat": [8, 8],
-        "symbols": ["hatch-16.svg"],
-        "jitter": [0, 0],
-        "fill-holes": true
-      }
-    }
+    "fill": { "pattern": "hatch-16.svg" }
   },
 
   {
     "selector": "parent === 'C42' && zoom < 5",
-    "fill": {
-      "pattern": {
-        "repeat": [4, 4],
-        "symbols": ["hatch-8.svg"],
-        "jitter": [0, 0],
-        "fill-holes": true
-      }
-    }
+    "fill": { "pattern": "hatch-8.svg" }
   },
 
   { "selector": "parent === 'C50'", "fill": { "color": "#ff7800" }},
