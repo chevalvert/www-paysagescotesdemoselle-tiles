@@ -5,7 +5,7 @@ RASTERS="$DIR/rasters.json"
 BBOX='917147.156155741,6885201.29637512,937157.321376621,6903953.67978212'
 
 rm -rf $DIR/{1..7}
-cat $DATA/{C05-10m,C05,C21,C04,C03,C08,C09,C10,C16,C17}.geojson | ppmm-builder \
+cat $DATA/{C05-10m,C05,C04,C03,C08,C09,C10,C16}.geojson | ppmm-builder \
   --progress \
   --output $DIR \
   --bbox $BBOX \

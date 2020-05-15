@@ -32,44 +32,36 @@
     }
   },
 
-  { "selector": "parent === 'C21'", "fill":  { "color": "#00461e" } },
 
-  { "selector": "parent === 'C03'", "fill": { "color": "#0064c8" } },
+  { "selector": "parent === 'C03'", "fill": { "color": "black" } },
 
   {
     "selector": "parent === 'C04'",
     "tolerance": 1,
-    "stroke": { "color": "#0064c8", "weight": 2 }
+    "stroke": { "color": "black", "weight": 2 }
   },
-  { "selector": "parent === 'C04' && zoom > 2", "stroke": { "color": "#0064c8", "weight": 4 } },
-  { "selector": "parent === 'C04' && zoom > 3", "stroke": { "color": "#0064c8", "weight": 8 } },
+  { "selector": "parent === 'C04' && zoom > 2", "stroke": { "color": "black", "weight": 4 } },
+  { "selector": "parent === 'C04' && zoom > 3", "stroke": { "color": "black", "weight": 8 } },
 
   {
     "selector": "parent === 'C08'",
-    "fill": { "color": "rgb(120,120,100)" }
+    "fill": { "color": "#757575" }
   },
 
   {
     "selector": "parent === 'C09'",
-    "fill": { "color": "rgb(255,128,255)" }
+    "fill": { "color": "white" }
   },
 
   {
     "selector": "parent === 'C10'",
-    "fill": { "color": "rgb(128,0,255)" }
+    "fill": { "color": "#222222" }
   },
 
-  { "selector": "parent === 'C17'", "stroke": { "color": "white", "weight": 2 } },
-  { "selector": "parent === 'C17' && zoom > 3", "stroke": { "color": "white", "weight": 4 } },
-  { "selector": "parent === 'C17' && zoom < 3 && parseInt(properties.IMPORTANCE) > 2", "hidden": true },
-  { "selector": "parent === 'C17' && zoom < 4 && parseInt(properties.IMPORTANCE) > 3", "hidden": true },
-  { "selector": "parent === 'C17' && zoom === 6", "stroke": { "color": "white", "weight": 6 } },
-  { "selector": "parent === 'C17' && zoom === 7", "stroke": { "color": "white", "weight": 8 } },
-
-  { "selector": "parent === 'C16'", "stroke": { "color": "rgba(255, 250, 0, 1)", "weight": 2 } },
-  { "selector": "parent === 'C16' && zoom === 3", "stroke": { "color": "rgba(255, 250, 0, 1)", "weight": 4 } },
-  { "selector": "parent === 'C16' && zoom === 4", "stroke": { "color": "rgba(255, 250, 0, 1)", "weight": 6 } },
-  { "selector": "parent === 'C16' && zoom === 5", "stroke": { "color": "rgba(255, 250, 0, 1)", "weight": 8 } },
-  { "selector": "parent === 'C16' && zoom === 6", "stroke": { "color": "rgba(255, 250, 0, 1)", "weight": 12 } },
-  { "selector": "parent === 'C16' && zoom === 7", "stroke": { "color": "rgba(255, 250, 0, 1)", "weight": 16 } }
+  { "selector": "parent === 'C16'", "stroke": { "color": "white", "weight": 2 } },
+  { "selector": "parent === 'C16' && zoom === 3", "stroke": { "color": "white", "weight": 4 } },
+  { "selector": "parent === 'C16' && zoom === 4", "stroke": { "color": "white", "weight": 6 } },
+  { "selector": "parent === 'C16' && zoom === 5", "stroke": { "color": "white", "weight": 8 } },
+  { "selector": "parent === 'C16' && zoom === 6", "stroke": { "color": "white", "weight": 12 } },
+  { "selector": "parent === 'C16' && zoom === 7", "stroke": { "color": "white", "weight": 16 } }
 ]
