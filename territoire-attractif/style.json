@@ -1,0 +1,6 @@
+[
+  {
+    "selector": "parent === 'territoire-attractif'",
+    "fill": { "color": "#ffdc00" }
+  }
+]
