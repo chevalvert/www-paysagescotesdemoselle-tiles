@@ -1,4 +1,4 @@
 [
-  { "selector": "parent === 'cu4-4'", "stroke": { "color": "#ee8333", "weight": 1, "cap": "round", "join": "round", "dash": [5, 5] }},
-  { "selector": "parent === 'cu4-4' && zoom === 6", "stroke": {"color": "#ee8333", "weight": 2, "cap": "round", "join": "round", "dash": [5, 5] }}
+  { "selector": "parent === 'cu4-4'", "stroke": { "color": "#ee8333", "weight": 2, "cap": "round", "join": "round", "dash": [5, 5] }},
+  { "selector": "parent === 'cu4-4' && zoom === 6", "stroke": {"color": "#ee8333", "weight": 3, "cap": "round", "join": "round", "dash": [5, 5] }}
 ]
