@@ -10,4 +10,4 @@ cat $DATA/{C17,C37,C40,C19,C47,C20,C39}.geojson | ppmm-builder \
   --bbox $BBOX \
   --styles $STYLE \
   --resolution 144 \
-  --zoom '1,2,3,4,5,6,7'
+  --zoom '1,2,3,4,5,6'
