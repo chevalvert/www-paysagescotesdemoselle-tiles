@@ -10,4 +10,4 @@ cat $DATA/CU2-{3,2}.geojson | ppmm-builder \
   --bbox $BBOX \
   --styles $STYLE \
   --resolution 144 \
-  --zoom '1,2,3,4,5,6,7'
+  --zoom '1,2,3,4,5,6'
