@@ -2,8 +2,8 @@
   { "selector": "parent === 'CU3-1'", "stroke": { "color": "#4accef", "weight": 2, "cap": "round", "join": "round" }},
   { "selector": "parent === 'CU3-1' && zoom === 6", "stroke": { "color": "#4accef", "weight": 4, "cap": "round", "join": "round" }},
 
-  { "selector": "parent === 'CU3-2'", "stroke": { "color": "#129e9f", "weight": 2, "cap": "round", "join": "round", "arrows": { "start": true, "end": true } }},
-  { "selector": "parent === 'CU3-2' && zoom === 6", "stroke": { "color": "#129e9f", "weight": 4, "cap": "round", "join": "round", "arrows": { "start": true, "end": true } }},
+  { "selector": "parent === 'CU3-2'", "stroke": { "color": "#129e9f", "weight": 4, "cap": "round", "join": "round", "arrows": { "start": true, "end": true } }},
+  { "selector": "parent === 'CU3-2' && zoom === 6", "stroke": { "color": "#129e9f", "weight": 8, "cap": "round", "join": "round", "arrows": { "start": true, "end": true } }},
 
   { "selector": "parent === 'CU3-3'", "stroke": { "color": "#f91b1c", "weight": 2, "cap": "round", "join": "round" }},
   { "selector": "parent === 'CU3-3' && zoom === 6", "stroke": { "color": "#f91b1c", "weight": 4, "cap": "round", "join": "round" }},
@@ -11,5 +11,3 @@
   { "selector": "parent === 'CU3-4'", "stroke": { "color": "#097fab", "weight": 1, "cap": "round", "join": "round", "dash": [5, 5] }},
   { "selector": "parent === 'CU3-4' && zoom === 6", "stroke": {"color": "#097fab", "weight": 2, "cap": "round", "join": "round", "dash": [5, 5] }}
 ]
-
-

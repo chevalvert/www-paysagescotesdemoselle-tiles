@@ -2,7 +2,7 @@
   {
     "selector": "parent === 'cu2-2' && zoom === 6",
     "stroke": {
-      "weight": 4,
+      "weight": 8,
       "color": "#c702f0",
       "arrows": { "start": true , "end": true }
     }
@@ -11,7 +11,7 @@
   {
     "selector": "parent === 'cu2-2'",
     "stroke": {
-      "weight": 2,
+      "weight": 4,
       "color": "#c702f0",
       "arrows": { "start": true, "end": true }
     }
